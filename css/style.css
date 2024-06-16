@@ -68,11 +68,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #fff;
-  color: #222;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  background-color: var(--snow);
+  color: var(--dark-grey);
+  font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+  line-height: 1.25;
 }
 
 img {
