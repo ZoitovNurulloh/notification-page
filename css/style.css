@@ -133,6 +133,7 @@ img {
   color:var(--dark-grey);
 }
 
+
 .card__item:not(:last-child) {
   margin-bottom: 0.5rem;
 }
@@ -144,7 +145,6 @@ img {
   border-radius: 0.5rem;
   color: var(--dark-grey);
 }
-
 
 .card__link--active {
   background-color: var(--snow);
@@ -191,6 +191,23 @@ img {
   height: 2.875rem;
 }
 
+.card__message {
+  display: none;
+  width: 34.75rem;
+  margin-left: auto;
+  font-weight: 500;
+  border: 1px solid var(--light-grey-blue);
+  border-radius: 5px;
+  padding: 1.125rem;
+}
+
+.card__message:hover {
+  background-color: var(--blue-active);
+}
+
+.card__message--active {
+  display: block;
+}
 
 
 /* RETINA BACKGROUND IMAGES */
