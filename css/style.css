@@ -185,6 +185,12 @@ img {
   font-weight: 800;
 }
 
+.card__liked {
+  border-radius: 0.5rem;
+  width: 2.875rem;
+  height: 2.875rem;
+}
+
 
 
 /* RETINA BACKGROUND IMAGES */
