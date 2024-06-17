@@ -220,3 +220,66 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+@media only screen and (max-width:769px) {
+  .card {
+    width: 34rem;
+  }
+
+  .card__message {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .card {
+    padding: 1.5rem 1rem;
+    width: 24rem;
+  }
+
+  .card__notification {
+    margin-bottom: 1.5rem;
+  }
+
+  .card__info {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .card__btn {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  .card__link {
+    padding: 1rem;
+  }
+
+  .card__img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .card__news {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  .card__message {
+    width: 20rem;
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  body {
+    align-items: start;
+    justify-content: start;
+  }
+
+  .card__message {
+    width: 16.5rem;
+  }
+}
