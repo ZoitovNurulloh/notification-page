@@ -276,7 +276,11 @@ only screen and (                min-resolution: 2dppx) {
 @media only screen and (max-width:375px) {
   body {
     align-items: start;
-    justify-content: start;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 22rem;
   }
 
   .card__message {
